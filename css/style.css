@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  scroll-behavior: inherit;
+}
+body {
+  background-color: #979a9c;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.header {
+  height: 70px;
+  background-color: #f0ffff;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.logo {
+  float: left;
+  padding: 10px;
+}
+.logo img {
+  width: 85px;
+  height: 70px;
+}
+
+.menu {
+  float: right;
+  margin: 24px;
+}
+.menu ul {
+  list-style: none;
+}
+.menu li {
+  display: inline-block;
+}
+.menu a {
+  font-size: 25px;
+  padding: 10px;
+  text-decoration: wavy;
+  color: #202f33;
+  text-shadow: 6px 4px 5px #201717;
+}
+
+.banner {
+  height: 480px;
+  background-size: cover;
+  background-image: url(../img/Imagen1.jpg);
+}
+
+.banner h1 {
+  font: size 780px;
+  padding: 150px 30px;
+  text-align: end;
+  color: rgb(28, 29, 29);
+  text-shadow: 6px 4px 5px #201717;
+}
+.musica {
+  margin: auto;
+  width: auto;
+}
+.musica .reproduccion {
+  padding: 50px;
+}
+.musicaft {
+  height: 25px;
+  width: 95px;
+  background-image: url(../img/logo.png);
+  background-size:contain;
+  line-height: 10px;
+  padding: 10px;
+  text-align: center;
+}
+.musicaft:hover {
+  opacity: 0.9;
+}
+.musicaft a {
+  color: #4d565e;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.biografia {
+  background-color: #454d55;
+  color: #ffffff;
+  padding: 10px 110px 10px 100px;
+  text-align: justify;
+}
+.biografia h2 {
+  font-size: 75px;
+  padding: 10px;
+  text-align: justify;
+}
+.biografia p {
+  font-size: 20px;
+}
+.premios {
+  padding: 10px;
+  text-align: center;
+}
+.premios table {
+  font-size: 20px;
+  padding: 20px 180px;
+}
+.premios h2 {
+  font-size: 45px;
+}
+.premios td {
+  font-size: 25px;
+  padding: 10px 20px;
+  text-align: left;
+}
+.premios span {
+  border: 4px inset #4d565e;
+  padding: 0px 45px;rgb(127, 143, 158);
+}
+.volver span {
+  display: inline-block;
+  width: 0px;
+  height: 0px;
+  margin-right:46px;
+  font-weight: normal;
+  color: #493d3d;
+
+}
+
+footer {
+  background-color: #f4fdf4;
+  color: #493d3d;
+  font-size: 15px;
+  padding: 10px 10px;
+  text-align:end;
+}
+
